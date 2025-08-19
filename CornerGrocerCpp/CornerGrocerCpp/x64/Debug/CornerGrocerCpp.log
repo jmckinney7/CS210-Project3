@@ -1,0 +1,15 @@
+﻿  App.cpp
+D:\VS Projects\Active Projects\CornerGrocerCpp\CornerGrocerCpp\App.cpp(39,79): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\VS Projects\Active Projects\CornerGrocerCpp\CornerGrocerCpp\App.cpp(71,75): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\VS Projects\Active Projects\CornerGrocerCpp\CornerGrocerCpp\Utility.h(50,30): warning C4101: 'e': unreferenced local variable
+  (compiling source file 'App.cpp')
+      D:\VS Projects\Active Projects\CornerGrocerCpp\CornerGrocerCpp\Utility.h(50,30):
+      the template instantiation context (the oldest one first) is
+          D:\VS Projects\Active Projects\CornerGrocerCpp\CornerGrocerCpp\App.cpp(39,21):
+          see reference to function template instantiation 'T Utility::GetValidatedInput<SettingsOption>(int)' being compiled
+          with
+          [
+              T=SettingsOption
+          ]
+  
+  CornerGrocerCpp.vcxproj -> D:\VS Projects\Active Projects\CornerGrocerCpp\x64\Debug\CornerGrocerCpp.exe
